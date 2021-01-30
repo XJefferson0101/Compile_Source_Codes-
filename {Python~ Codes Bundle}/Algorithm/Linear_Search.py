@@ -1,7 +1,10 @@
-lst=[1,2,3,4,5]
+lst=[]
+for lst_l in range(5):
+	lst_n = int(input(": "))
+	lst.append(lst_n)
 lst_len=len(lst)
 k=0;j=0
-n=int(input(": "))
+n=int(input("Enter num to be search: "))
 for i in range(0,lst_len):
 	if lst[i]==n: 
 		k=1 
