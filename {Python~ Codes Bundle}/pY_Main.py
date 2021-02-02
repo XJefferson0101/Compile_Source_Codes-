@@ -1,8 +1,10 @@
-class pY_Main():
-	try:
-		n=100
-		while n>0: 
-			n=n-1
-			print(n)
-	except Exception as e:
-		print(e)
+# Sort the given numbers in Asscending........
+lst=[]
+for i in range(0,3):
+	n=int(input("Enter n: "))
+	lst.append(n) 
+print("Given numbers are: ",lst)
+print(sorted(lst))
+
+#</>............
+

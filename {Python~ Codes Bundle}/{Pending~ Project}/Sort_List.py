@@ -6,5 +6,3 @@ for i in range(0,lst_len):  # Nested for loop{}
     	if lst[i] == lst[j]:
     		new_lst.append(lst[j])
 print(new_lst)
-
-
