@@ -2,7 +2,7 @@
 :x 
 echo. 
 echo.  
-py Sort_List.py
+py If_palindrome.py
 echo. 
 echo.  
 pause 
