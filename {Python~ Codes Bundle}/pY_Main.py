@@ -1,5 +1,4 @@
-#>>>
-n=10 
-while n>0:
-	n-=1
-	print(n) 
+lst="Python: languages"
+lst_len = len(lst)
+for i in range(0,lst_len):
+	print(lst[i])
