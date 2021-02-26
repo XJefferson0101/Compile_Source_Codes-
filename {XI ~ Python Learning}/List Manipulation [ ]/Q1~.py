@@ -1,10 +1,11 @@
-class List(): 
-	def rev_list(): 
-		lst=[]; New_List = None
-		n = int(input("Enter the range of a list[]: "))
-		for i in range(0,n): 
-			n2 = int(input("Enter the element: ")) 
-			lst.append(n2)
-		print("Given list[] is:~ ",lst)
-	    return New_List   
-List.rev_list()
+lst = []; new_lst = []
+lst_range = int(input("Enter the range of a List[]: "))
+for i in range(0,lst_range):
+	n = int(input("Enter an Integer: "))
+	lst.append(n)
+lst_len = len(lst)
+for j in range(0,lst_len):
+	var = lst_len-j 
+	new_lst.append(var)
+print("\n","Original List[]: ",lst)
+print(" List[] After reversing: ",new_lst)
